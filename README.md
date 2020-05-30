@@ -1,7 +1,9 @@
-# Azure Kubernetes Service
-This is a cheatsheet for AKS commands
+# Azure Cheatsheet
+This is a cheatsheet for Azure commands
+- [AKS](#aks)
 
-## Get Credentials
+## AKS 
+### Get Credentials 
 `az aks get-credentials --resource-group techprimers-group --name techprimers-cluster`
 
 
