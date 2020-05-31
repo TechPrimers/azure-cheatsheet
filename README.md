@@ -10,4 +10,5 @@ This is a cheatsheet for Azure commands
 ### Get Credentials 
 `az aks get-credentials --resource-group techprimers-group --name techprimers-cluster`
 
-
+### Link Azure Container Registry
+`az aks update -n techprimers-cluster -g techprimers-group --attach-acr techprimers`
